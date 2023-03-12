@@ -1,0 +1,78 @@
+#carte1 {
+  border-left: 2px solid #0275d8;
+  margin-left: 15rem;
+  width: 35rem;
+  height: 5rem;
+  transition: All ease-in-out 1s;
+}
+.card-body {
+  margin-top: 0.8rem;
+}
+#carte1:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+#carte2 {
+  border-left: 2px solid #0275d8;
+  margin-left: 20rem;
+  width: 35rem;
+  height: 5rem;
+  transition: All ease-in-out 1s;
+}
+.card-body {
+  margin-top: 0.8rem;
+}
+#carte2:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+#carte3 {
+  border-left: 2px solid #0275d8;
+  margin-left: 25rem;
+  width: 35rem;
+  height: 5rem;
+  transition: All ease-in-out 1s;
+}
+.card-body {
+  margin-top: 0.8rem;
+}
+#carte3:hover {
+  background-color: #0275d8;
+  color: white;
+}
+#carte4 {
+  border-left: 2px solid #0275d8;
+  margin-left: 30rem;
+  width: 35rem;
+  height: 5rem;
+  transition: All ease-in-out 1s;
+}
+.card-body {
+  margin-top: 0.8rem;
+}
+#carte4:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 700px) {
+  #carte1 {
+    margin: auto;
+    width: 18rem;
+  }
+  #carte2 {
+    margin: auto;
+    width: 18rem;
+  }
+  #carte3 {
+    margin: auto;
+    width: 18rem;
+  }
+  #carte4 {
+    margin: auto;
+    width: 18rem;
+  }
+}
