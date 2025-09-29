@@ -6,6 +6,8 @@
   /* margin-left: 15rem; */
   margin-left: 18%;
   width: 35rem;
+  word-wrap: break-word!important;   /* Coupe les mots trop longs si besoin */
+  white-space: normal!important;     /* Permet les retours à la ligne */
   height: 5rem;
   transition: All ease-in-out 1s;
 }
